@@ -1,7 +1,7 @@
 Node-based-image-processor
 # Node-Based Image Processor
 
-## Overview
+## Overview 
 
 This project implements a simple node-based image manipulation interface in C++ using only free libraries. The application lets users load an image, process it through a series of connected nodes (such as brightness/contrast adjustment and Gaussian blur), and save the resulting output. The interface uses OpenCV for image processing and basic HighGUI windows for display, ensuring no paid libraries (e.g. Qt) are needed.
 
