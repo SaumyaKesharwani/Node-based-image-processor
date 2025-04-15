@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build-blurnode",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "main.cpp",
+          "blurnode.cpp",
+          "node.cpp",
+          "connection.cpp",
+          "brightness.cpp",
+          "outputnode.cpp",
+          "imageinput.cpp",
+          "-IC:/Downloads/opencv/sources/include",
+          "-IC:/Downloads/opencv/build/include",
+          "-LC:/Downloads/opencv/build/x64/vc16/lib",
+          "-lopencv_world4110",
+          "-o",
+          "BlurNodeApp.exe"
+        ],
+
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
+  

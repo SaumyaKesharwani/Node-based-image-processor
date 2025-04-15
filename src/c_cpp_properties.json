@@ -1,0 +1,18 @@
+{
+    "configurations": [
+      {
+        "name": "Win32",
+        "includePath": [
+          "D:/Downloads/opencv/sources/include",
+          "D:/Downloads/opencv/build/include"
+        ],
+        "defines": [],
+        "compilerPath": "C:/MinGW/bin/g++.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "windows-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
+  
